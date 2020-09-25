@@ -1,0 +1,11 @@
+<input
+  type="text"
+  [formControl]="inputControl"
+  placeholder="Indsæt tal"
+  (keypress)="mouseDown($event)"
+/>
+<button (click)="clear()">Ryd</button>
+
+<ng-template ngFor let-plate [ngForOf]="plates">
+  <bingo-plate [plate]="plate" [(selected)]="selected"></bingo-plate>
+</ng-template>

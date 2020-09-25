@@ -1,0 +1,15 @@
+<div class="information">
+  {{plate.key}} <span class="name">{{plate.name}}</span>
+</div>
+<div class="wrapper">
+  <div *ngFor="let row of plate.grid" class="row">
+    <div
+      *ngFor="let column of row"
+      class="column"
+      (click)="select(column)"
+      [class.selected]="selected.indexOf(column) != -1"
+    >
+      {{column}}
+    </div>
+  </div>
+</div>
