@@ -1,6 +1,9 @@
 # BingoApp
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.10.
+# Introduktion
+For at tilføje dine bingo plader, skal du bare udfylde den skabelon, som kan findes under "src/app/components/bingo/bingo.component.ts"
+
+Hvis du ikke kan finde ud at køre angular kode, kig på [Angular CLI README](https://angular.io/guide/setup-local#run-the-application)
 
 ## Development server
 
